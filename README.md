@@ -1,2 +1,10 @@
-# system-instruction-modularization
-System-Instruction bank
+# system-instruction-modularization 레포지토리 소개
+시스템 인스트럭션을 모듈화하여 프롬프트를 제작하고 있습니다.
+주로 단계적이고 지속적인 추론 프롬프트와 시스템 보호 프롬프트, 그리고 기타 자잘한 프롬프트를 제작합니다.
+프롬프트 테스트 기준 모델은 주로(대부분) GoogleDeepMind의 gemini-1.5-pro-exp-0827 모델 입니다.
+
+실험적인(exp) 모델임에도 불구하고 사용하는 이유는 Long-Term Task에 매우 탁월한 경향을 보이기 때문입니다.
+예를 들어 FCoT 7과 FCoT 반복 프롬프트(#42, #49)를 사용하고, 모델에게 긴 작업 시간이 요구되는 태스크를 쥐어줄 때, gemini-1.5-pro-exp-0827 모델은 다른 모델들에 비해 월등히 더 높은 지속력(끈기)을 보였습니다.
+
+
+주력 프롬프트 : Flexible-Chain-of-Thought, FCoT 시스템 프롬프트 보호
